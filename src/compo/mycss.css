@@ -72,4 +72,21 @@
     
     border: 2px solid gray;
   }
-  
+  @media only screen and (min-width:600px) and (max-width:800px){
+    .image-container{
+      display: block;
+      height: 500px;
+    }
+    .image-container>div{
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width:00px) and (max-width:700px){
+    .image-container{
+      display: block;
+      height: 350px;
+    }
+    .image-container>div{
+      width: 100%;
+    }
+  }
